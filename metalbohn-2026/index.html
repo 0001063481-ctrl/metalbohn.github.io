@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Metalbohn 2026 | Logismax</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;800&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">LOGISMAX</div>
+        <ul class="nav-links">
+            <li><a href="#hero">Início</a></li>
+            <li><a href="#empresa">A Empresa</a></li>
+            <li><a href="#diagnostico">Diagnóstico</a></li>
+            <li><a href="#solucao">Solução</a></li>
+            <li><a href="#resultados">Resultados</a></li>
+        </ul>
+    </nav>
+
+    <section id="hero">
+        <div class="video-overlay"></div>
+        <video autoplay muted loop id="bg-video">
+            <source src="assets/video/warehouse-bg.mp4" type="video/mp4">
+        </video>
+
+        <div class="hero-content">
+            <span class="badge">Gestão Industrial 2026</span>
+            <h1>PROJETO METALBOHN <span class="highlight">LOGÍSTICA 2026</span></h1>
+            <p>Da Crise à Liderança de Mercado</p>
+            <a href="#empresa" class="btn-primary">Iniciar Apresentação <i class="fas fa-arrow-down"></i></a>
+        </div>
+    </section>
+
+    <section id="empresa" class="container section-pad">
+        <div class="grid-2">
+            <div class="card-glass">
+                <h2><i class="fas fa-industry"></i> INDÚSTRIA METALBOHN</h2>
+                <ul>
+                    <li><strong>Local:</strong> Caxias do Sul - RS</li>
+                    <li><strong>Setor:</strong> Componentes Metálicos</li>
+                    <li><strong>Faturamento:</strong> R$ 420 milhões (2024)</li>
+                </ul>
+            </div>
+            <div class="card-glass">
+                <h2><i class="fas fa-network-wired"></i> ESTRUTURA ATUAL</h2>
+                <ul class="status-list">
+                    <li><i class="fas fa-check text-green"></i> 1 Fábrica (Caxias)</li>
+                    <li><i class="fas fa-exclamation-triangle text-orange"></i> 1 CD Centralizado (SP)</li>
+                    <li><i class="fas fa-truck-moving text-blue"></i> 8 Transportadoras</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="diagnostico" class="bg-dark section-pad">
+        <div class="container">
+            <h2 class="section-title text-white">DIAGNÓSTICO: 5 FALHAS SISTÊMICAS</h2>
+            <div class="grid-cards">
+                <div class="feature-card">
+                    <div class="icon-box"><i class="fas fa-database"></i></div>
+                    <h3>Integração</h3>
+                    <p>ERP legado sem WMS. Planilhas desconectadas.</p
+          <section id="solucao" class="container section-pad">
+    <div class="text-center mb-5">
+        <h2 class="section-title">NOVA REDE LOGÍSTICA</h2>
+        <p>Reestruturação com 1 Fábrica Híbrida e 3 CDs Regionais</p>
+    </div>
+
+    <div class="map-wrapper">
+        <div id="map-logistica"></div>
+        
+        <div class="map-legend">
+            <div class="legend-item"><span class="dot factory"></span> Fábrica (Cross-docking)</div>
+            <div class="legend-item"><span class="dot cd"></span> CD Regional</div>
+            <div class="legend-item"><span class="line-flow"></span> Fluxo de Abastecimento</div>
+        </div>
+    </div>
+</section>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script src="js/map.js"></script>
+
+
+<div class="feature-card reveal"></div>
+<section id="conclusao" class="section-pad bg-dark text-center">
+        <div class="container">
+            <h2 class="section-title text-white">A ESCOLHA É CLARA</h2>
+            <div class="grid-2">
+                <div class="choice-card danger">
+                    <i class="fas fa-times-circle"></i>
+                    <h3>Manter o Atual</h3>
+                    <p>Perda progressiva de clientes e margem.</p>
+                </div>
+                <div class="choice-card success">
+                    <i class="fas fa-check-circle"></i>
+                    <h3>Projeto 2026</h3>
+                    <p>Liderança absoluta em serviço e custo.</p>
+                </div>
+            </div>
+
+            <div class="final-cta mt-5">
+                <div class="stamp">APROVADO</div>
+                <h3>RECOMENDAÇÃO LOGISMAX</h3>
+                <p class="lead">Início Imediato: Novembro 2025</p>
+                <a href="#contato" class="btn-primary btn-lg">Aprovar Projeto Agora <i class="fas fa-signature"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contato">
+        <div class="container">
+            <img src="assets/img/lm-logo.png" alt="Logismax Logo" class="footer-logo">
+            
+            <p><strong>Consultoria LOGISMAX</strong></p>
+            <p>lucas.rodrigues@logismax.com.br</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+                <a href="#"><i class="fas fa-envelope"></i></a>
+            </div>
+            <p class="copyright">&copy; 2026 Projeto Metalbohn. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
